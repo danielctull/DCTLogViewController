@@ -36,6 +36,11 @@
 
 #import <UIKit/UIKit.h>
 
+#ifndef dctlogviewcontroller
+#define dctlogviewcontroller_1_0     10000
+#define dctlogviewcontroller         dctlogviewcontroller_1_0
+#endif
+
 @interface DCTLogViewController : UIViewController
 @property (nonatomic, strong) IBOutlet UITextView *textView;
 
