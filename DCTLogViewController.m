@@ -44,7 +44,7 @@
 	
 	[super loadView];
 	
-	if (self.isViewLoaded) return;
+	if (self.textView != nil) return;
 	
 	self.textView = [[UITextView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 100.0f, 100.0f)];
 	self.textView.font = [UIFont fontWithName:@"Courier New" size:14.0];
